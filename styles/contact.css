@@ -1,0 +1,49 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lilita One', cursive;
+	background-image: url(../images/window.jpg);
+	background-size: cover;
+	height: 100%;	
+}
+
+/*======NAV======*/
+nav {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.19);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.6px);
+	-webkit-backdrop-filter: blur(6.6px);
+}
+.navbar-brand {
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+/*======NAV======*/
+
+.row {
+	background: rgba(255, 255, 255, 0.24);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(12.7px);
+	-webkit-backdrop-filter: blur(12.7px);
+	border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+form {
+	width: 20rem;
+}
+
+@media (max-width: 768px)
+{
+	form {
+		width: 15rem;
+	}
+}

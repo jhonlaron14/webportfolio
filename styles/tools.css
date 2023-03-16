@@ -1,0 +1,43 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lilita One', cursive;
+	background-image: url(../images/window.jpg);
+	background-size: cover;
+	height: 100%;	
+}
+
+/*======NAV======*/
+nav {
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.19);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(6.6px);
+	-webkit-backdrop-filter: blur(6.6px);
+}
+
+.navbar-brand {
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+/*======NAV======*/
+
+/*ICONS*/
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+/*ICONS*/
